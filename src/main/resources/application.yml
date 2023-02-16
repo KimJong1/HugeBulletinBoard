@@ -28,6 +28,11 @@ spring:
       format_sql: true
       ddl-auto: update
 
+jwt:
+  header: Authorization
+  secret: 842f516824165bcde7ec45ed4548101e38e77bd5e6e674e68f406dd8f1e8034ffe637e81274717f5463736faf1bcd8d68d7145c828046cddfeca94264c400423
+  access-token-validity-in-seconds: 600
+
 logging:
   level:
     org:
